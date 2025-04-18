@@ -213,19 +213,3 @@ int main()
 
 	return 0;
 }
-
-
-//Finally I will see the answer but I hadn't end my Project yet
-// Bad things in my solutions :
-//1. while planning should take care a lot of parameters and variables
-//2. Can't use struct & enums
-//3. And finally not optimized solution. 
-// ---> :(
-// 25/2/2025
-
-
-// OOOOOOOOOOOOOOOOOOOOHHHHHHHHHHHHHHHHHHHHHH
-// I can't belive it,
-// Finally it works as it should beeeeeeeeeeeeeeeeeeeee
-// Alhamdu le Allah.
-// 3/3/2025
