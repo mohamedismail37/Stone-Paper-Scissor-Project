@@ -1,5 +1,5 @@
 # Stone-Paper-Scissor (Project)
-console-based **1-Player** game built using C++ and functional programming principles.
+Console-based **1-Player** game built using C++ and functional programming principles.
 
 ---
 
