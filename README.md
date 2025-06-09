@@ -3,7 +3,7 @@ Console-based **1-Player** game built using C++ and functional programming princ
 
 ---
 
-![Game Screenshot](assets/WinnerSituation.png)
+![Game Screenshot](assets/screenshots/WinnerSituation.png)
 
 ---
 
@@ -20,7 +20,7 @@ Console-based **1-Player** game built using C++ and functional programming princ
 
 ---
 
-![Game Screenshot](assets/DrawSituation.png)
+![Game Screenshot](assets/screenshots/DrawSituation.png)
 
 
 ---
@@ -36,11 +36,11 @@ Console-based **1-Player** game built using C++ and functional programming princ
 ---
 
 ## 🌳 Code Structure
-<pre> <code>## 🧠 Project Logic ``` 🧠 Project Logic Structure ├── 🎮 StartGame() # Main game loop and replay handler │ └── 📦 GameRounds() # Handles multiple rounds │ └── 🎲 RoundResults() # Shows results for each round │ └── 🎨 ColorsAndSounds() # Sets color and plays sound │ ├── 🧮 FinalWinner() # Determines final winner ├── 📊 GameResults() # Displays summary after all rounds └── ❓ WillContinue() # Asks user if they want to play again ``` </code> </pre>
+<pre> <code>## 🌳 Project Logic Structure ``` 🧠 Project Logic Structure ├── 🎮 StartGame() # Main game loop and replay handler │ └── 📦 GameRounds() # Handles multiple rounds │ └── 🎲 RoundResults() # Shows results for each round │ └── 🎨 ColorsAndSounds() # Sets color and plays sound │ ├── 🧮 FinalWinner() # Determines final winner ├── 📊 GameResults() # Displays summary after all rounds └── ❓ WillContinue() # Asks user if they want to play again ``` </code> </pre>
 
 ---
 
-![Game Screenshot](assets/LoseSituation.png)
+![Game Screenshot](assets/screenshots/LoseSituation.png)
 
 
 ---
