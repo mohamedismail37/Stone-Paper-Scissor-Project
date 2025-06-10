@@ -34,25 +34,15 @@ Console-based **1-Player** game built using C++ and functional programming princ
 - ♻️ Replay Feature: Allows playing multiple rounds without restarting the program.
 
 ---
-
 ## 🌳 Code Structure
-<details>
-<summary>🧠 Project Logic Structure</summary>
+🎮 StartGame()                     -> Main game loop and replay handler  
+    └── 📦 GameRounds()           -> Handles multiple rounds  
+        └── 🎲 RoundResults()     -> Shows results for each round  
+            └── 🎨 ColorsAndSounds() -> Sets color and plays sound  
 
-├── 🎮 StartGame() # Main game loop and replay handler
-│ └── 📦 GameRounds() # Handles multiple rounds
-│ └── 🎲 RoundResults() # Shows results for each round
-│ └── 🎨 ColorsAndSounds() # Sets color and plays sound
-
-├── 🧮 FinalWinner() # Determines final winner
-├── 📊 GameResults() # Displays summary after all rounds
-└── ❓ WillContinue() # Asks user if they want to play again
-
-bash
-Copy
-Edit
-
-</details>
+🧮 FinalWinner()                  -> Determines final winner  
+📊 GameResults()                  -> Displays summary after all rounds  
+❓ WillContinue()                 -> Asks user if they want to play again  
 
 ---
 
