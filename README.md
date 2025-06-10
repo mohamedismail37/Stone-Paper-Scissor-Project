@@ -36,16 +36,7 @@ Console-based **1-Player** game built using C++ and functional programming princ
 ---
 
 ## 🌳 Code Structure
-🧠 Project Logic Structure
-
-├── 🎮 StartGame()                     # Main game loop and replay handler
-│   └── 📦 GameRounds()                # Handles multiple rounds
-│       └── 🎲 RoundResults()          # Shows results for each round
-│           └── 🎨 ColorsAndSounds()   # Sets color and plays sound
-│
-├── 🧮 FinalWinner()                   # Determines final winner
-├── 📊 GameResults()                   # Displays summary after all rounds
-└── ❓ WillContinue()                  # Asks user if they want to play again
+<pre lang="markdown"><code> ## 🧠 Project Logic Structure ``` ├── 🎮 StartGame() # Main game loop and replay handler │ └── 📦 GameRounds() # Handles multiple rounds │ └── 🎲 RoundResults() # Shows results for each round │ └── 🎨 ColorsAndSounds() # Sets color and plays sound │ ├── 🧮 FinalWinner() # Determines final winner ├── 📊 GameResults() # Displays summary after all rounds └── ❓ WillContinue() # Asks user if they want to play again ``` </code></pre>
 ---
 
 ![Game Screenshot](assets/screenshots/LoseSituation.png)
